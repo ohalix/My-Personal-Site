@@ -2,12 +2,23 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514e;
+
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    width: 5%;
+    border-width: 5px;
+    color: gray;
 }
 
 .top-container {
     background-color: #E4f9f5;
     padding-top: 100px;
     position: relative;
+    
 }
 
 .middle-container {
@@ -15,20 +26,29 @@ body {
 }
 
 .bottom-container {
-    
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 30px;
 }
 
 h1 {
-    margin: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
 }
+    
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 .bottom-cloud {
@@ -45,4 +65,74 @@ h3 {
 
 span {
     text-decoration: underline;
+}
+
+.sub-heading {
+    font-weight: normal;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.com-image {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.defi-img {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+#copyright {
+    color: #EAF6F6;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.btn {
+    border: none;
+    background-color: #25b4b9;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    padding: 15px 20px 35px 20px;
+}
+
+
+.btn:hover {
+    background-color: rgb(125, 247, 247);
+}
+
+#contact-btn {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+}
+
+#contact-desc {
+    line-height: 2;
 }
