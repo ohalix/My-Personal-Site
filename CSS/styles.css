@@ -14,23 +14,6 @@ hr {
     color: gray;
 }
 
-.top-container {
-    background-color: #E4f9f5;
-    padding-top: 100px;
-    position: relative;
-    
-}
-
-.middle-container {
-    
-}
-
-.bottom-container {
-    background-color: #66BFBF;
-    margin: 0;
-    padding: 30px;
-}
-
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -43,6 +26,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
+    padding-bottom: 10px;
 }
     
 
@@ -51,9 +35,29 @@ h3 {
     color: #11999E;
 }
 
+span {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #E4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 30px;
+}
+
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 240px;
     bottom: 300px;
 }
 
@@ -61,10 +65,6 @@ h3 {
     position: absolute;
     right: 300px;
     top: 50px;
-}
-
-span {
-    text-decoration: underline;
 }
 
 .sub-heading {
@@ -77,6 +77,10 @@ span {
     text-decoration: none;
     padding: 15px;
     margin-bottom: 20px;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
 }
 
 .profile-pic {
@@ -104,13 +108,6 @@ span {
     padding-left: 30px;
 }
 
-#copyright {
-    color: #EAF6F6;
-    margin-bottom: 0;
-    margin-top: 30px;
-    font-size: 12px;
-}
-
 .btn {
     border: none;
     background-color: #25b4b9;
@@ -135,4 +132,12 @@ span {
 
 #contact-desc {
     line-height: 2;
+    margin-top: 30px;
+}
+
+#copyright {
+    color: #EAF6F6;
+    margin-bottom: 0;
+    margin-top: 30px;
+    font-size: 12px;
 }
